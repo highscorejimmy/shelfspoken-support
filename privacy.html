@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shelfspoken Privacy Policy: what the app stores, what it sends, and what it never collects.">
+  <title>Privacy Policy — Shelfspoken</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html"><img src="assets/app-icon.png" alt="Shelfspoken app icon"><span>Shelfspoken</span></a>
+      <nav class="nav">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#support">Support</a>
+        <a href="privacy.html" class="active">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="page-header">
+      <h1>Privacy Policy</h1>
+      <p>Effective October 30, 2026</p>
+    </header>
+
+    <article class="prose">
+      <p>Shelfspoken ("the App") is made by Jimmy Mullins, an independent developer. It helps you keep a shelf of your books and take notes about them. This policy explains what the App stores, what it sends over the internet, and what it never collects.</p>
+
+      <h2>Summary</h2>
+      <ul>
+        <li>The developer does not collect any of your data. There are no accounts, ads, analytics, or tracking.</li>
+        <li>Your books and notes are stored on your device and, if you use iCloud, in your own private iCloud database, which only you can access.</li>
+        <li>Voice notes are transcribed and handwriting is recognized on your device.</li>
+        <li>To look up books, the App sends your search text or ISBN to Open Library.</li>
+      </ul>
+
+      <h2>Data stored on your device and in your iCloud</h2>
+      <p>Your library (books, reading status, covers, typed notes, voice recordings and their transcripts, and handwritten notes) is stored on your device. If you're signed in to iCloud, the App syncs this library between your devices using Apple's CloudKit in the <strong>private database of your own iCloud account</strong>. The developer cannot see, access, or export data in your private iCloud database. Apple's handling of iCloud data is covered by <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's Privacy Policy</a>. You can turn off iCloud for the App in iOS Settings, and you can delete the App's iCloud data under Settings → [your name] → iCloud → Manage Account Storage.</p>
+      <p>The App also stores the start date of your free trial in your iCloud Keychain and iCloud key-value storage so the trial isn't restarted on each of your devices.</p>
+
+      <h2>Microphone, speech recognition, and camera</h2>
+      <p>The microphone is used only while you record a voice note. Recordings are transcribed using Apple's on-device speech recognition; the App requires on-device processing and does not send your audio to the developer or to any speech service. The camera is used only to scan a book's barcode or to take a photo of a cover, and those images stay in your library. Handwriting is recognized on your device with Apple's Vision framework.</p>
+
+      <h2>Book lookups (Open Library)</h2>
+      <p>When you search for a book, scan a barcode, or enter an ISBN, the App sends the search text or ISBN to <a href="https://openlibrary.org" rel="noopener">Open Library</a> (run by the Internet Archive) to get book details and cover images. These requests don't include your name, your notes, or any account identifier, but like any web request they include your IP address and a generic app identifier. Open Library's handling of requests is covered by the <a href="https://archive.org/about/terms" rel="noopener">Internet Archive's terms and privacy policy</a>. Books you add by hand are never sent anywhere except your private iCloud.</p>
+
+      <h2>Purchases</h2>
+      <p>The one-time unlock is sold through Apple's App Store. Payment is handled entirely by Apple; the App only receives confirmation from Apple that the purchase is valid. The developer does not receive your payment details.</p>
+
+      <h2>What we don't do</h2>
+      <ul>
+        <li>No developer servers, accounts, or sign-in.</li>
+        <li>No advertising, analytics, crash-reporting, or tracking SDKs.</li>
+        <li>No selling or sharing of personal data.</li>
+      </ul>
+
+      <h2>Exporting and deleting your data</h2>
+      <p>You can export your library at any time from Settings → Export Books &amp; Notes. Deleting a book or note in the App deletes it from your devices and your iCloud. Deleting the App removes its data from that device; data in your iCloud remains until you delete it as described above.</p>
+
+      <h2>Children</h2>
+      <p>The App is not directed at children under 13 and doesn't knowingly collect any personal information from anyone.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy? Email <a href="mailto:highscorejimmy@icloud.com?subject=Shelfspoken%20privacy">highscorejimmy@icloud.com</a>.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year">2026</span> Jimmy Mullins · Shelfspoken</span>
+      <span><a href="index.html#support">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:highscorejimmy@icloud.com">highscorejimmy@icloud.com</a></span>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
